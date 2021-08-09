@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2018"],
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "pretty": true,
+    "resolveJsonModule": true
+  }
+}
