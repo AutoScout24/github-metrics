@@ -8,12 +8,14 @@
     "format:test": "prettier --ignore-path ../.gitignore --list-different . || (echo 'Problem with code format. Please do yarn format:fix' && exit 1)"
   },
   "devDependencies": {
-    "@aws-cdk/aws-events-targets": "1.101.0",
-    "@aws-cdk/aws-lambda": "1.101.0",
-    "@aws-cdk/core": "1.101.0",
     "@types/node": "^15.0.1",
-    "aws-cdk": "1.101.0",
+    "aws-cdk": "^2",
     "ts-node": "^9.1.1",
     "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "@autoscout24/aws-cdk": "^v2",
+    "constructs": "^10.1",
+    "aws-cdk-lib": "^2"
   }
 }

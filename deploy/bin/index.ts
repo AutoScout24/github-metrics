@@ -1,4 +1,4 @@
-import { App } from "@aws-cdk/core";
+import { App } from "aws-cdk-lib";
 import { ServiceStack } from "../lib/service";
 
 const app = new App();
