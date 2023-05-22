@@ -1,8 +1,8 @@
-import * as cdk from "@aws-cdk/core";
-import { PolicyStatement } from "@aws-cdk/aws-iam";
-import { Function, Runtime, Code } from "@aws-cdk/aws-lambda";
-import { Rule, Schedule } from "@aws-cdk/aws-events";
-import { LambdaFunction } from "@aws-cdk/aws-events-targets";
+import * as cdk from "aws-cdk-lib";
+import { PolicyStatement } from "aws-cdk-lib/aws-iam";
+import { Function, Runtime, Code } from "aws-cdk-lib/aws-lambda";
+import { Rule, Schedule } from "aws-cdk-lib/aws-events";
+import { LambdaFunction } from "aws-cdk-lib/aws-events-targets";
 
 export type ServiceProps = {
   description: string;
