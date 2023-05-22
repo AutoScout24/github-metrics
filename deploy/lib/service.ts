@@ -16,7 +16,7 @@ export class ServiceStack extends cdk.Stack {
       functionName: "github-metrics",
       description: props.description,
       runtime: Runtime.PYTHON_3_7,
-      timeout: cdk.Duration.seconds(3), // Default timeout
+      timeout: cdk.Duration.seconds(5),
       code: Code.fromAsset("../dist/github-metrics.zip"),
       handler: "handler.handler",
     });
